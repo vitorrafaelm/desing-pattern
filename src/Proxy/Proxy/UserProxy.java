@@ -23,6 +23,7 @@ public class UserProxy implements UserInterface {
 
         return this.realUser;
     }
+
     @Override
     public Address getAddresses() {
         this.realUser = createUser();
